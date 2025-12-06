@@ -1,7 +1,6 @@
 <!-- ====================== BANNER ====================== -->
 <p align="center">
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/51117ffa-4c59-4d1b-ae44-6044e5a4a322" />
-alt="Yashi Banner" width="100%">
 </p>
 
 <h1 align="center">Hi, I'm Yashi 👋</h1>
