@@ -3,11 +3,6 @@
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/f58f2c9b-ab3d-44a4-ba9f-3c1ab0280bf7">
 
 </p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Frontend-Developer-FE59A3?style=for-the-badge">
-  <img src="https://img.shields.io/badge/HTML-CSS-JS-FECC00?style=for-the-badge">
-</p>
 ---
 
 ## 🚀 Tech Stack
