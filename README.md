@@ -1,6 +1,7 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/your-banner-image-here.png" width="90%" />
+  <img src="https://github.com/user-attachments/assets/4d978d99-23e9-4ded-a877-d3288d15c9ae"
+
 </p>
 
 <h1 align="center">Hi 👋, I'm Yashi Sharma</h1>
