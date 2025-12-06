@@ -4,11 +4,10 @@
 </p>
 
 <h1 align="center">Hi, I'm Yashi 👋</h1>
-<h3 align="center">✨ Creative Front-End Developer ✨</h3>
+<h3 align="center">✨ Front-End Developer ✨</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Frontend-Developer-FE59A3?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Creative-Designer-EA9CDA?style=for-the-badge">
   <img src="https://img.shields.io/badge/HTML-CSS-JS-FECC00?style=for-the-badge">
 </p>
 
