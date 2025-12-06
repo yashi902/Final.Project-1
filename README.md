@@ -1,6 +1,6 @@
 <!-- Header Banner -->
 <p align="center">
-  <img src="https://via.placeholder.com/1200x300/ffffff/000000?text=Creative+Front-End+Designer+%7C+Yashi+Sharma" alt="Banner"/>
+  <img src="https://miro.medium.com/1*b21FyqUbowHYAOQDXH0tDw.jpeg text=Creative+Front-End+Designer+%7C+Yashi+Sharma" alt="Banner"/>
 </p>
 
 <h1 align="center">👋 Hi, I'm <span style="color:#ff4da6;">Yashi Sharma</span></h1>
@@ -29,8 +29,6 @@ My work blends **design + code**, crafting experiences that feel alive and intui
 - HTML  
 - CSS / Tailwind  
 - JavaScript  
-- React (if applicable)  
-- Responsive Design  
 - Git & GitHub  
 
 ---
@@ -43,7 +41,7 @@ My work blends **design + code**, crafting experiences that feel alive and intui
 </p>
 
 **✨ What I used:**  
-HTML • CSS • JavaScript • Figma Designing  
+HTML • CSS • JavaScript  
 
 ⭐ Modern hero section  
 ⭐ Smooth animations  
