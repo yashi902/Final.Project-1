@@ -39,7 +39,7 @@
 
 ---
 
-### 🌼 **1. Creative Portfolio Website**
+### 🌼 **1. College Club/Event Website**
 <p align="center">
   <img src="https://raw.githubusercontent.com/yashi902/yashi902/main/project1.png" width="600px" />
 </p>
