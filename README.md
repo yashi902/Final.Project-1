@@ -1,6 +1,7 @@
 <!-- Header Banner -->
 <p align="center">
-  <img src="https://miro.medium.com/1*b21FyqUbowHYAOQDXH0tDw.jpeg text=Creative+Front-End+Designer+%7C+Yashi+Sharma" alt="Banner"/>
+  <img src="<img width="1400" height="788" alt="image" src="https://github.com/user-attachments/assets/122d38d2-aa83-42a0-bd30-863ca48d94c9" />
+ text=Creative+Front-End+Designer+%7C+Yashi+Sharma" alt="Banner"/>
 </p>
 
 <h1 align="center">👋 Hi, I'm <span style="color:#ff4da6;">Yashi Sharma</span></h1>
