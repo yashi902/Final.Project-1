@@ -7,14 +7,6 @@
   <img src="https://img.shields.io/badge/Frontend-Developer-FE59A3?style=for-the-badge">
   <img src="https://img.shields.io/badge/HTML-CSS-JS-FECC00?style=for-the-badge">
 </p>
-
----
-
-## 🌟 About Me  
-🎨 I love turning ideas into beautiful, responsive, and user-friendly websites.  
-💡 My focus is on **clean UI**, **smooth animations**, and **creative design thinking**.  
-🚀 Currently learning: **React**, **Tailwind**, **GSAP** & **UI micro-animations**.
-
 ---
 
 ## 🚀 Tech Stack
