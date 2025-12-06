@@ -3,9 +3,6 @@
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/51117ffa-4c59-4d1b-ae44-6044e5a4a322" />
 </p>
 
-<h1 align="center">Hi, I'm Yashi 👋</h1>
-<h3 align="center">✨ Front-End Developer ✨</h3>
-
 <p align="center">
   <img src="https://img.shields.io/badge/Frontend-Developer-FE59A3?style=for-the-badge">
   <img src="https://img.shields.io/badge/HTML-CSS-JS-FECC00?style=for-the-badge">
