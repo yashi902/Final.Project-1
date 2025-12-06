@@ -46,37 +46,7 @@
 </p>
 
 🔗 **Live:** *(Add link)*  
-🛠 **Tech:** HTML • CSS • JS • Animations
-
----
-
-### 🦋 **2. Landing Page – Modern UI**
-<p align="center">
-  <img src="https://raw.githubusercontent.com/yashi902/yashi902/main/project2.png" width="600px" />
-</p>
-
-🔗 **Live:** *(Add link)*  
-🛠 **Tech:** HTML • CSS • Tailwind
-
----
-
-### 🍃 **3. Weather App (API Based)**
-<p align="center">
-  <img src="https://raw.githubusercontent.com/yashi902/yashi902/main/project3.png" width="600px" />
-</p>
-
-🔗 **Live:** *(Add link)*  
-🛠 **Tech:** HTML • CSS • JS • API
-
----
-
-### 🌙 **4. Creative Login UI + Animations**
-<p align="center">
-  <img src="https://raw.githubusercontent.com/yashi902/yashi902/main/project4.png" width="600px" />
-</p>
-
-🔗 **Live:** *(Add link)*  
-🛠 **Tech:** HTML • CSS • GSAP
+🛠 **Tech:** HTML • CSS • JS • Animation
 
 ---
 
