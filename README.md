@@ -1,92 +1,101 @@
-<!-- Header Banner -->
+<!-- ====================== BANNER ====================== -->
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/122d38d2-aa83-42a0-bd30-863ca48d94c9""text=Creative+Front-End+Designer+%7C+Yashi+Sharma" alt="Banner"/>
+  <img src="https://raw.githubusercontent.com/yashi902/yashi902/main/banner.png" alt="Yashi Banner" width="100%">
 </p>
 
-<h1 align="center">👋 Hi, I'm <span style="color:#ff4da6;">Yashi Sharma</span></h1>
-<h3 align="center">✨ Creative Front-End Developer </h3>
+<h1 align="center">Hi, I'm Yashi 👋</h1>
+<h3 align="center">✨ Creative Front-End Developer | UI/UX Enthusiast ✨</h3>
 
----
-
-## 🎨 About Me  
-I’m a passionate **Front-End Developer** who loves building beautiful, functional, and highly interactive user interfaces.  
-My work blends **design + code**, crafting experiences that feel alive and intuitive.
-
-🌸 *I specialize in clean UI, smooth animations, and modern aesthetics.*
-
----
-
-## 🛠️ Skills & Tools  
-
-### 🎨 Design  
-- Figma  
-- Canva  
-- UI Mockups  
-- Color Theory  
-- Layout & Visual Hierarchy  
-
-### 💻 Development  
-- HTML  
-- CSS / Tailwind  
-- JavaScript  
-- Git & GitHub  
-
----
-
-## 🌟 Featured Projects  
-
-### **1️⃣ Portfolio Website – Creative UI/UX Theme**
 <p align="center">
-  <img src="https://via.placeholder.com/900x500/ffe6f2/000000?text=Project+1+Preview" width="700"/>
-</p>
-
-**✨ What I used:**  
-HTML • CSS • JavaScript  
-
-⭐ Modern hero section  
-⭐ Smooth animations  
-⭐ Works on all screen sizes  
-
----
-
-### **2️⃣ E-Commerce Front-End Design**
-<p align="center">
-  <img src="https://via.placeholder.com/900x500/e6f7ff/000000?text=Project+2+Preview" width="700"/>
-</p>
-
-**✨ Features:**  
-✔ Product cards  
-✔ Cart UI  
-✔ Clean navigation  
-
----
-
-### **3️⃣ Landing Page – Gradient & Glassmorphism**
-<p align="center">
-  <img src="https://via.placeholder.com/900x500/f0e6ff/000000?text=Project+3+Preview" width="700"/>
-</p>
-
-🎨 Fully creative design  
-⭐ Smooth scroll  
-⭐ Modern color palette  
-
----
-
-## 🔥 GitHub Stats  
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=yashi902&show_icons=true&theme=rose_pine" height="160"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashi902&layout=compact&theme=rose_pine" height="160"/>
+  <img src="https://img.shields.io/badge/Frontend-Developer-FE59A3?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Creative-Designer-EA9CDA?style=for-the-badge">
+  <img src="https://img.shields.io/badge/HTML-CSS-JS-FECC00?style=for-the-badge">
 </p>
 
 ---
 
-## 🌺 Let's Connect  
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Figma-Design-blueviolet?style=for-the-badge"></a>
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-Profile-pink?style=for-the-badge"></a>
+## 🌟 About Me  
+🎨 I love turning ideas into beautiful, responsive, and user-friendly websites.  
+💡 My focus is on **clean UI**, **smooth animations**, and **creative design thinking**.  
+🚀 Currently learning: **React**, **Tailwind**, **GSAP** & **UI micro-animations**.
+
+---
+
+## 🚀 Tech Stack
+
+### 🌐 Front-End  
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap,tailwind" />
+</p>
+
+### 🎨 Design Tools  
+<p>
+  <img src="https://skillicons.dev/icons?i=figma,ps,ai,xd" />
 </p>
 
 ---
 
-### ✨ *Thanks for visiting my profile!*  
+# 🎯 Featured Projects  
+### *(Replace the image links after uploading!)*
 
+---
+
+### 🌼 **1. Creative Portfolio Website**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yashi902/yashi902/main/project1.png" width="600px" />
+</p>
+
+🔗 **Live:** *(Add link)*  
+🛠 **Tech:** HTML • CSS • JS • Animations
+
+---
+
+### 🦋 **2. Landing Page – Modern UI**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yashi902/yashi902/main/project2.png" width="600px" />
+</p>
+
+🔗 **Live:** *(Add link)*  
+🛠 **Tech:** HTML • CSS • Tailwind
+
+---
+
+### 🍃 **3. Weather App (API Based)**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yashi902/yashi902/main/project3.png" width="600px" />
+</p>
+
+🔗 **Live:** *(Add link)*  
+🛠 **Tech:** HTML • CSS • JS • API
+
+---
+
+### 🌙 **4. Creative Login UI + Animations**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yashi902/yashi902/main/project4.png" width="600px" />
+</p>
+
+🔗 **Live:** *(Add link)*  
+🛠 **Tech:** HTML • CSS • GSAP
+
+---
+
+## 📊 GitHub Stats  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yashi902&show_icons=true&theme=tokyonight" width="50%">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yashi902&theme=tokyonight" width="50%">
+</p>
+
+---
+
+## 🌈 Connect With Me  
+<p align="center">
+  <a href="#"><img src="https://skillicons.dev/icons?i=instagram" width="40px"></a>
+  <a href="#"><img src="https://skillicons.dev/icons?i=linkedin" width="40px"></a>
+  <a href="#"><img src="https://skillicons.dev/icons?i=github" width="40px"></a>
+</p>
+
+---
+
+### 🦄 *“Design is intelligence made visible.”*  
+<p align="center">✨ Thanks for visiting my GitHub profile! ✨</p>
