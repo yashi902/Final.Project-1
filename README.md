@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">👋 Hi, I'm <span style="color:#ff4da6;">Yashi Sharma</span></h1>
-<h3 align="center">✨ Creative Front-End Developer • UI/UX Enthusiast • Modern Web Designer</h3>
+<h3 align="center">✨ Creative Front-End Developer </h3>
 
 ---
 
