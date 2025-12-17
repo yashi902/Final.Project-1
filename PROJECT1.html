@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>College Club Events</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Poppins', sans-serif;
+    }
+
+    body{
+      background:#f6f7fb;
+      color:#333;
+    }
+
+    /* Navbar */
+    header{
+      background:linear-gradient(135deg,#667eea,#764ba2);
+      padding:20px 60px;
+      color:#fff;
+    }
+
+    nav{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    nav h1{
+      font-size:24px;
+      font-weight:700;
+    }
+
+    nav ul{
+      list-style:none;
+      display:flex;
+      gap:30px;
+    }
+
+    nav ul li a{
+      text-decoration:none;
+      color:#fff;
+      font-weight:500;
+    }
+
+    /* Hero Section */
+    .hero{
+      height:85vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      background:linear-gradient(135deg,#667eea,#764ba2);
+      color:#fff;
+      padding:20px;
+    }
+
+    .hero h2{
+      font-size:48px;
+      margin-bottom:20px;
+    }
+
+    .hero p{
+      font-size:18px;
+      max-width:600px;
+      margin:auto;
+      margin-bottom:30px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:12px 30px;
+      background:#fff;
+      color:#764ba2;
+      border-radius:30px;
+      text-decoration:none;
+      font-weight:600;
+    }
+
+    /* Section */
+    section{
+      padding:80px 60px;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-bottom:50px;
+    }
+
+    .section-title h2{
+      font-size:36px;
+      margin-bottom:10px;
+    }
+
+    .section-title p{
+      color:#666;
+    }
+
+    /* Events */
+    .events{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:30px;
+    }
+
+    .event-card{
+      background:#fff;
+      border-radius:20px;
+      padding:25px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.08);
+      transition:0.3s;
+    }
+
+    .event-card:hover{
+      transform:translateY(-10px);
+    }
+
+    .event-card h3{
+      margin-bottom:10px;
+      color:#764ba2;
+    }
+
+    .event-card p{
+      font-size:14px;
+      color:#555;
+    }
+
+    /* About */
+    .about{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:40px;
+      align-items:center;
+    }
+
+    .about img{
+      width:100%;
+      border-radius:20px;
+    }
+
+    /* Contact */
+    .contact{
+      max-width:600px;
+      margin:auto;
+      background:#fff;
+      padding:40px;
+      border-radius:20px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    .contact input,
+    .contact textarea{
+      width:100%;
+      padding:12px;
+      margin-bottom:20px;
+      border-radius:10px;
+      border:1px solid #ddd;
+    }
+
+    .contact button{
+      width:100%;
+      padding:12px;
+      border:none;
+      border-radius:30px;
+      background:linear-gradient(135deg,#667eea,#764ba2);
+      color:#fff;
+      font-size:16px;
+      font-weight:600;
+      cursor:pointer;
+    }
+
+    /* Footer */
+    footer{
+      text-align:center;
+      padding:30px;
+      background:#222;
+      color:#aaa;
+    }
+
+    @media(max-width:768px){
+      header{padding:20px;}
+      section{padding:60px 20px;}
+      .hero h2{font-size:36px;}
+      .about{grid-template-columns:1fr;}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>Tech Club</h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h2>College Club Events</h2>
+    <p>Explore workshops, hackathons, cultural fests and technical events organized by our college clubs.</p>
+    <a href="#events" class="btn">Explore Events</a>
+  </div>
+</section>
+
+<section id="events">
+  <div class="section-title">
+    <h2>Upcoming Events</h2>
+    <p>Join us and enhance your skills</p>
+  </div>
+  <div class="events">
+    <div class="event-card">
+      <h3>Web Development Workshop</h3>
+      <p>Learn HTML, CSS and build beautiful websites.</p>
+    </div>
+    <div class="event-card">
+      <h3>Hackathon 2025</h3>
+      <p>24 hours of coding, innovation and fun.</p>
+    </div>
+    <div class="event-card">
+      <h3>Cultural Fest</h3>
+      <p>Music, dance, art and celebration.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="section-title">
+    <h2>About Our Club</h2>
+    <p>Who we are</p>
+  </div>
+  <div class="about">
+    <p>Our college club aims to provide students with opportunities to learn, innovate and collaborate. We organize technical and cultural events to enhance creativity and teamwork.</p>
+    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="club">
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-title">
+    <h2>Contact Us</h2>
+    <p>Get in touch</p>
+  </div>
+  <div class="contact">
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea rows="4" placeholder="Your Message"></textarea>
+    <button>Send Message</button>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Tech Club | College Event Website</p>
+</footer>
+
+</body>
+</html>
