@@ -1,265 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>College Club Events</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <style>
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-      font-family:'Poppins', sans-serif;
-    }
-
-    body{
-      background:#f6f7fb;
-      color:#333;
-    }
-
-    /* Navbar */
-    header{
-      background:linear-gradient(135deg,#667eea,#764ba2);
-      padding:20px 60px;
-      color:#fff;
-    }
-
-    nav{
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-    }
-
-    nav h1{
-      font-size:24px;
-      font-weight:700;
-    }
-
-    nav ul{
-      list-style:none;
-      display:flex;
-      gap:30px;
-    }
-
-    nav ul li a{
-      text-decoration:none;
-      color:#fff;
-      font-weight:500;
-    }
-
-    /* Hero Section */
-    .hero{
-      height:85vh;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      text-align:center;
-      background:linear-gradient(135deg,#667eea,#764ba2);
-      color:#fff;
-      padding:20px;
-    }
-
-    .hero h2{
-      font-size:48px;
-      margin-bottom:20px;
-    }
-
-    .hero p{
-      font-size:18px;
-      max-width:600px;
-      margin:auto;
-      margin-bottom:30px;
-    }
-
-    .btn{
-      display:inline-block;
-      padding:12px 30px;
-      background:#fff;
-      color:#764ba2;
-      border-radius:30px;
-      text-decoration:none;
-      font-weight:600;
-    }
-
-    /* Section */
-    section{
-      padding:80px 60px;
-    }
-
-    .section-title{
-      text-align:center;
-      margin-bottom:50px;
-    }
-
-    .section-title h2{
-      font-size:36px;
-      margin-bottom:10px;
-    }
-
-    .section-title p{
-      color:#666;
-    }
-
-    /* Events */
-    .events{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-      gap:30px;
-    }
-
-    .event-card{
-      background:#fff;
-      border-radius:20px;
-      padding:25px;
-      box-shadow:0 10px 25px rgba(0,0,0,0.08);
-      transition:0.3s;
-    }
-
-    .event-card:hover{
-      transform:translateY(-10px);
-    }
-
-    .event-card h3{
-      margin-bottom:10px;
-      color:#764ba2;
-    }
-
-    .event-card p{
-      font-size:14px;
-      color:#555;
-    }
-
-    /* About */
-    .about{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:40px;
-      align-items:center;
-    }
-
-    .about img{
-      width:100%;
-      border-radius:20px;
-    }
-
-    /* Contact */
-    .contact{
-      max-width:600px;
-      margin:auto;
-      background:#fff;
-      padding:40px;
-      border-radius:20px;
-      box-shadow:0 10px 25px rgba(0,0,0,0.08);
-    }
-
-    .contact input,
-    .contact textarea{
-      width:100%;
-      padding:12px;
-      margin-bottom:20px;
-      border-radius:10px;
-      border:1px solid #ddd;
-    }
-
-    .contact button{
-      width:100%;
-      padding:12px;
-      border:none;
-      border-radius:30px;
-      background:linear-gradient(135deg,#667eea,#764ba2);
-      color:#fff;
-      font-size:16px;
-      font-weight:600;
-      cursor:pointer;
-    }
-
-    /* Footer */
-    footer{
-      text-align:center;
-      padding:30px;
-      background:#222;
-      color:#aaa;
-    }
-
-    @media(max-width:768px){
-      header{padding:20px;}
-      section{padding:60px 20px;}
-      .hero h2{font-size:36px;}
-      .about{grid-template-columns:1fr;}
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalakrit - The Cultural Club of ABES Engineering College</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="icon" href="img2.jpg">
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Kalakrit</h1>
+                <p>The Cultural Club of ABES</p>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Photo Gallery</a></li>
+                <li><a href="#highlight">Highlighted Event</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#join">How to Join</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-  <nav>
-    <h1>Tech Club</h1>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#events">Events</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+    <main>
+        <div>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Kalakrit</h1>
+                <p class="tagline">Unleash your creativity and discover your talent with us</p>
+                <a href="#join" class="btn-primary">Join the Club</a>
+            </div>
+        </section>
+        </div>
 
-<section class="hero">
-  <div>
-    <h2>College Club Events</h2>
-    <p>Explore workshops, hackathons, cultural fests and technical events organized by our college clubs.</p>
-    <a href="#events" class="btn">Explore Events</a>
-  </div>
-</section>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Kalakrit</h2>
+                <p>Kalakrit stands as the premier cultural hub at ABES Engineering College, renowned for its dynamic events centered on dance, singing, and fashion that bring students together in celebration.</p>
+                <p>Beyond academics, the club empowers members to develop skills in leadership, teamwork, and self-expression, complementing their engineering studies with holistic growth opportunities.</p>
+                <p>With a track record of inter-college successes, Kalakrit organizes workshops, competitions, and community activities to nurture artistic talents and strengthen bonds among participants.</p>
+            </div>
+        </section>
 
-<section id="events">
-  <div class="section-title">
-    <h2>Upcoming Events</h2>
-    <p>Join us and enhance your skills</p>
-  </div>
-  <div class="events">
-    <div class="event-card">
-      <h3>Web Development Workshop</h3>
-      <p>Learn HTML, CSS and build beautiful websites.</p>
-    </div>
-    <div class="event-card">
-      <h3>Hackathon 2025</h3>
-      <p>24 hours of coding, innovation and fun.</p>
-    </div>
-    <div class="event-card">
-      <h3>Cultural Fest</h3>
-      <p>Music, dance, art and celebration.</p>
-    </div>
-  </div>
-</section>
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2>Photo Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        
+                        <div class="image-placeholder" style= "background-color: #0d0d0d;">Dance Night <img src="img3.jpg" alt="" height="180px" width="300px"></div>  
+                      
+                    </div>
+                    <div class="gallery-item">
+                        <div  class="image-placeholder" style="background-color: #030303;">Fashion Show<img src="img5.jpg" alt="" height="160px" width="300px"></div> 
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-placeholder" style="background-color: #070707;">Singing Contest <img src="img6.jpg" alt="" height="180px" width="300px"></div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-placeholder" style="background-color: #070707;">Music Workshop <img src="img7.jpg" alt="" height="180px" width="300px"></div> 
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-placeholder" style="background-color: #0a0a0a;">Cultural Fest <img src="img8.jpg" alt="" height="180px" width="300px"></div>  
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-placeholder" style="background-color: #0c0c0c;">Talent Showcase <img src="img9.jpg" alt="" height="180px" width="300px"></div> 
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-placeholder" style="background-color: #070707;">Group Performance <img src="img10.jpg" alt="" height="180px" width="300px"></div>  
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-placeholder" style="background-color: #030303;">Event Highlights <img src="img11.jpg" alt="" height="180px" width="300px"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<section id="about">
-  <div class="section-title">
-    <h2>About Our Club</h2>
-    <p>Who we are</p>
-  </div>
-  <div class="about">
-    <p>Our college club aims to provide students with opportunities to learn, innovate and collaborate. We organize technical and cultural events to enhance creativity and teamwork.</p>
-    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="club">
-  </div>
-</section>
+        <section id="highlight" class="section">
+            <div class="container">
+                <h2>Highlighted Event</h2>
+                <article class="event-card">
+                    <h3>Manthan ’23 – Flagship Cultural Fest</h3>
+                    <p>Manthan ’23 serves as Kalakrit's signature event, offering newcomers a platform to display their skills in singing, dancing, fashion, and other creative domains.</p>
+                    <p>This fest generates buzz among performers and spectators alike, honoring artistic endeavors while fostering a sense of togetherness and shared enthusiasm.</p>
+                </article>
+            </div>
+        </section>
 
-<section id="contact">
-  <div class="section-title">
-    <h2>Contact Us</h2>
-    <p>Get in touch</p>
-  </div>
-  <div class="contact">
-    <input type="text" placeholder="Your Name">
-    <input type="email" placeholder="Your Email">
-    <textarea rows="4" placeholder="Your Message"></textarea>
-    <button>Send Message</button>
-  </div>
-</section>
+        <section id="events" class="section">
+            <div class="container">
+                <h2>Past & Upcoming Events</h2>
+                <div class="events-grid">
+                    <article class="event-card">
+                        <h3>Ground Zero</h3>
+                        <p>An introductory event for fresh talents, featuring solo and group performances in dance and music to kickstart the cultural year.</p>
+                    </article>
+                    <article class="event-card">
+                        <h3>Roadies</h3>
+                        <p>A high-energy competition inspired by adventure shows, combining physical challenges with cultural showcases to test endurance and creativity.</p>
+                    </article>
+                    <article class="event-card">
+                        <h3>Manthan</h3>
+                        <p>The annual flagship fest where students compete in multiple categories, celebrating diversity and artistic expression across the college.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-<footer>
-  <p>© 2025 Tech Club | College Event Website</p>
-</footer>
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <article class="project-card">
+                    <h3>Diwali Delight – Humans of ABES Initiative</h3>
+                    <p>As part of the Diwali celebrations, Kalakrit's team visited local communities and shared meals and treats with children in need through the Humans of ABES program.</p>
+                    <p>The initiative aimed to bring the warmth of Diwali to those facing hardships, embodying the festival's essence of light and generosity.</p>
+                </article>
+            </div>
+        </section>
 
+        <section id="join" class="section">
+            <div class="container">
+                <h2>How to Join Kalakrit</h2>
+                <p>Joining Kalakrit is open to passionate students eager to engage in and lead cultural activities. We run annual recruitment drives to welcome new members.</p>
+                <ul>
+                    <li>Submit an application form during the recruitment period.</li>
+                    <li>Shortlisted candidates are invited for a personal interview to discuss their interests.</li>
+                    <li>The club includes specialized groups like Fashion, Music, and Dance, each with tailored recruitment processes.</li>
+                </ul>
+                <form class="join-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="branch">Branch/Year:</label>
+                    <input type="text" id="branch" name="branch" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="interest">Interest Area:</label>
+                    <select id="interest" name="interest" required>
+                        <option value="">Select</option>
+                        <option value="dance">Dance</option>
+                        <option value="music">Music</option>
+                        <option value="fashion">Fashion</option>
+                        <option value="events">Events Management</option>
+                    </select>
+                    
+                    <button type="submit" class="btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <p>Kalakrit – The Cultural Club of ABES Engineering College, Ghaziabad</p>
+            <p>Contact: <a href="mailto:kalakrit@abes.ac.in">kalakrit@abes.ac.in</a></p>
+            <div class="social-links">
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">YouTube</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
